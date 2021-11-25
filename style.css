@@ -1,0 +1,62 @@
+*{
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;  
+    border: 0.1rem solid;
+    
+}
+
+input{
+    padding: 0.4rem;
+    color: black;
+    border: black solid;
+    border-radius: 0.8rem;
+}    
+
+button{
+    padding: 0.5rem 1.5rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    margin-bottom: 7rem;
+    color: white;
+    border: 0.3rem solid;
+    background: none;
+    cursor: pointer;
+}
+.heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4rem;
+}
+
+.background{
+    background-image: url(bg3.jpg);
+    background-color: silver;
+    background-blend-mode: darken;
+    background-size: cover;
+    padding: 7rem 35rem;
+}
+@media screen and (max-width: 1500px){
+    .container{
+        border: none;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .heading{
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    button{
+        margin-bottom: auto ;
+    }
+    .background{
+        padding: 11rem 0rem;
+    }
+    
+}
+
+
+    
